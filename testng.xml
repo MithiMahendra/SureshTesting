@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Smoke Test">
+    <classes>
+      <class name="Automation.Selenium.IDExample"/>
+      <class name="Automation.Selenium.LinkText"/>
+       <class name="Automation.Selenium.IDExam"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Regression Test">
+    <classes>
+      <class name="Automation.Selenium.IDExample"/>
+      <class name="Automation.Selenium.NameExample"/>
+      <class name="Automation.Selenium.ClassExample">
+      <methods>
+      <exclude name = "exclude"/>
+      <include name = "include"/>
+      </methods>
+      </class>
+      <class name="Automation.Selenium.SeleniumAxisExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
