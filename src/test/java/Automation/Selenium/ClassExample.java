@@ -24,5 +24,11 @@ public class ClassExample extends IDExample {
 		System.out.print("exclude");
 		
 	}
+	@Test
+	public void git_status() throws InterruptedException {
+		System.out.println("**********************status scenario*******************************");
+		System.out.print("exclude");
+		
+	}
 
 }
